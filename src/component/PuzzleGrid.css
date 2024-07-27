@@ -1,0 +1,162 @@
+.puzzle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.puzzle-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.puzzle-row {
+  display: flex;
+}
+
+.puzzle-cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.puzzle-cell.selected {
+  background-color: lightblue;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+/* PuzzleGrid.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.puzzle-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.puzzle-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.puzzle-row {
+  display: flex;
+}
+
+.puzzle-cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 1.2em;
+  margin: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.puzzle-cell.incorrect {
+  background-color: #f8d7da;
+}
+/* PuzzleGrid.css */
+
+.puzzle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.puzzle-grid {
+  display: grid;
+  gap: 5px;
+}
+
+.puzzle-row {
+  display: flex;
+}
+
+.puzzle-cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.puzzle-cell.selected {
+  background-color: #a0d0f0;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
